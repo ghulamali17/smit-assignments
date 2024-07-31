@@ -1,0 +1,175 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* .navbar-nav {
+    margin-left: auto;
+} */
+ .navbar-dark .navbar-nav .nav-link{
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400;
+ }
+ .nav-item a:hover{
+text-decoration: underline;
+ }
+
+ body{
+   background-color: #F0F0F0;
+ }
+ /* cards */
+ .cardss{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+ }
+ .cardd{
+  
+    width: 320px;
+    height: 360px;
+    border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    margin-top: 50px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5);
+ }
+ .cardd:hover {
+   transform: scale(1.04);
+   box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.7);
+    transition: 0.2s ease-in-out; 
+  
+}
+.card1{
+   background-image: url('/images/color.png');
+   background-size: cover;
+  
+      
+     }
+.card2{
+   background-image: url('/images/img3.png');
+   background-size: cover;
+      
+     }
+.card3{
+  
+   background-image: url('/images/pic\ 3.png');
+   background-size: cover;
+   
+     }
+.card4{
+   background-image: url('/images/facebook.png');
+   background-size: cover;
+     }
+
+.card5{
+   background-image: url('/images/app.png');
+   background-size: cover;
+      
+     }
+.card6{
+   background-image: url('/images/cv.png');
+   background-size: cover;
+     }
+.card7{
+      
+       background-image: url('/images/periodic.png');
+       background-size: cover;
+}
+
+/* cards */
+/* card hover buttons */
+.buttons {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   opacity: 0;
+   transform: translateY(100%);
+   transition: opacity 0.2s ease-in-out, transform 0.2s ease-in-out;
+   margin-bottom: 20px;
+  
+}
+
+.cardd:hover .buttons {
+   opacity: 1;
+   transform: translateY(0);
+}
+
+.buttons a {
+   padding: 10px 20px;
+   background-color: #007bff;
+   color: white;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.2s ease-in-out;
+   text-decoration: none;
+}
+.buttons a:hover {
+   background-color: #0056b3;
+ 
+}
+/* card hover buttons */
+
+/* contact */
+#contact{
+   height: 90vh;
+   width: 100%;
+   gap: 4rem;
+   background-color: #212529;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#contact h2 {
+   font-size: 6rem;
+   text-align: center;
+   /* margin: 2rem 0; */
+   font-weight: bold;
+}
+     .social-links {
+       margin-top: 40px;
+     }
+     .social-links a{
+      text-decoration: none;
+      color: white;
+     }
+     .social-links .row {
+       justify-content: center;
+       align-items: center;
+     }
+     .social-links .col {
+       display: flex;
+       align-items: center;
+       margin: 2px;
+     }
+     .social-links .col i {
+       font-size: 2rem; 
+       margin-right: 10px;
+     }
+     .social-links .col h2 {
+       margin: 0;
+       font-size: 1.5rem;
+     }
+/* contactt */
+
+
+/* mediaa */
+@media (max-width: 460px) {
+   #contact h2{
+       font-size: 4rem;
+
+   }
+   html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden; 
+    }
+  
+}

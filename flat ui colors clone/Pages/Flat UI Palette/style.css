@@ -1,0 +1,115 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   background-color: #fff;
+    font-family: Barlow;
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+    overflow-y: none;
+}
+.flat-ui-palette-main-container {
+    background-color: #ddd;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.color-div1 {
+    height: 160px;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.flat-ui-paletteF-header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    height: 50px;
+    line-height: 45px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 1000;  */
+}
+
+.flat-ui-paletteF-header i {
+    color: #000;
+}
+.Sound,.back{
+    background-color: transparent;
+    font-size: large;
+}
+header a {
+    background-color: transparent;
+    color: black;
+}
+
+select {
+    background: #000;
+    border-radius: 4px;
+    width: 270px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    text-indent: -24px;
+    transition: all .2s;
+    letter-spacing: 1px;
+}
+
+.copy-button {
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #000;
+    font-size: 14px;
+    border: 0.5px solid white;
+    border-radius: 24px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    display: none;
+}
+
+.color-div1:hover .copy-button {
+    display: inline-block;
+}
+.div-text {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: transparent;
+}
+.div-text h3{
+    background-color: transparent;
+}
+
+@media (max-width: 768px) {
+    .div-text{
+        display: none;
+    }
+    
+}
+@media (max-width: 468px) {
+    
+    .Sound{
+        display: none;
+    }
+    .back{
+        flex-direction: flex-start;
+    }
+    select{
+        width: 90%;
+        margin-left: 10px;
+    }
+}
