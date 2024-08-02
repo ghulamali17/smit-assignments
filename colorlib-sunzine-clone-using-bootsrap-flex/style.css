@@ -1,56 +1,53 @@
-*{
-    padding: 0%;
-    margin: 0%;
+* {
+    padding: 0;
+    margin: 0;
     text-decoration: none;
     font-family: "Raleway", sans-serif;
 }
-.containerr{
+
+.containerr {
     width: 100%;
     height: 100%;
 }
+
 /* Header */
 .headerr {
     width: 100%;
     height: 80px;
-   
     text-decoration: none;
-   
 }
 
 .logo {
     gap: 4px;
 }
-.logo a{
+
+.logo a {
     color: #000;
     text-decoration: none;
 }
 
 .headerr ul {
     color: #b7b7b7;
-    gap: 30px; 
-     list-style: none;
-    
+    gap: 30px;
+    list-style: none;
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: #b7b7b7;
 }
 
-.link-switches{
-   
-  margin-left: 20px;
-  gap: 20px;
-
-}
-.link-switches a{
-   color: #000;
+.link-switches {
+    margin-left: 20px;
+    gap: 20px;
 }
 
-/* Header */
+.link-switches a {
+    color: #000;
+}
 
-/* Hero Sectionn */
-.hero-sectionn{
+/* Hero Section */
+.hero-sectionn {
     height: 320px;
     width: 100%;
     font-weight: 400;
@@ -58,242 +55,169 @@ ul li a{
     text-transform: uppercase;
     line-height: 1.6;
 }
-.text span{
+
+.text span {
     display: block;
 }
-.hero-sectionn h2{
+
+.hero-sectionn h2 {
     font-size: 36px;
     line-height: 1.4;
 }
 
-.hero-buttons{
-margin: 10px;
-margin-left: 20px;
-gap: 20px;
-
+.hero-buttons {
+    margin: 10px;
+    margin-left: 20px;
+    gap: 20px;
 }
-.hero-buttons ul{
-    
+
+.hero-buttons ul {
     margin-left: 20px;
     gap: 30px;
-    
-    }
+}
 
-/* Hero Sectionn */
+/* Cards */
+.cardss {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 0 15px;
+}
 
-
-/* cards */
-.box {
+.cardss .box {
     height: 350px;
-    width: 370px;
-    margin: 10px 10px;
-    margin-right: 10px;
+    width: calc(25% - 20px);
+    margin: 10px 0;
     position: relative;
 }
-.div-txt{
+
+.div-txt {
     position: absolute;
     bottom: 0;
     color: white;
     display: none;
 }
-.box:hover .div-txt{
+
+.box:hover .div-txt {
     display: inline-block;
-    
 }
-.cardss {
-    gap: 4px;
-}
-.card1 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/1.jpeg');
+
+.cardss .box {
     background-size: cover;
-    height: 350px;
-    width: 400px;
-    margin: 4px;
-    margin-left: 20px;
+    background-position: center;
 }
 
-/* .card2, .card13, .card17, .card20 {
-    width: 270px; 
-} */
-
+.card1
+ { background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/1.jpeg');
+ }
 .card2 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/3.jpeg');
-    background-size: cover;
-    /* height: 350px;
-    width: 270px; 
-    margin: 4px; */
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/3.jpeg'); 
+    }
 .card3 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/2.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/2.jpeg');
+     }
 .card4 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/4.jpeg');
-    width: 420px;
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/4.jpeg');
+     }
 .card5 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/5.jpeg');
-    background-size: cover;
-    /* width: 300px; 
-    height: 350px;
-    margin: 4px; */
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/5.jpeg');
+     }
 .card6 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/6.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/6.jpeg'); 
+    }
 .card7 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/7.jpeg');
-    background-size: cover;
-    width: 450px;
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/7.jpeg');
+     }
+.card8 { background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/20.jpeg'); 
 }
-
-.card8 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/20.jpeg');
-    background-size: cover;
-}
-
 .card9 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/9.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/9.jpeg');
+     }
 .card10 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/8.jpeg');
-    background-size: cover;
-    width: 450px;
-    /* height: 350px;
-    width: 270px; 
-    margin: 4px; */
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/8.jpeg'); 
+    }
 .card11 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/11.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/11.jpeg');
+     }
 .card12 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/12.jpeg');
-    background-size: cover;
-}
-
-.card13 {
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/12.jpeg');
+     }
+.card13 { 
     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/10.jpeg');
-    background-size: cover;
-    width: 450px;
-    /* width: 270px; */
-}
-
+ }
 .card14 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/17.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/17.jpeg');
+     }
 .card15 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/15.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/15.jpeg');
+     }
 .card16 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/13.jpeg');
-    background-size: cover;
-}
-
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/13.jpeg'); 
+    }
 .card17 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/14.jpeg');
-    width: 450px;
-    background-size: cover;
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/14.jpeg');
+     }
+.card18 { 
+    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/18.jpeg'); 
 }
-
-.card18 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/18.jpeg');
-    background-size: cover;
-    /* width: 450px;
-    height: 350px;
-    margin: 4px; */
+.card19 { 
+    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/19.jpeg'); 
 }
-
-.card19 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/19.jpeg');
-    background-size: cover;
-}
-
 .card20 {
-    background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/16.jpeg');
-    background-size: cover;
-    /* width: 320px;
-    height: 350px;
-    margin: 4px; */
-}
+     background-image: url('../colorlib-sunzine-clone-using-bootsrap-flex/images/16.jpeg'); 
+    }
 
-/* Cards */
-
-/* spinner */
-.spinner-border{
+/* Spinner */
+.spinner-border {
     margin-left: 50%;
 }
-/* spinner */
 
 /* Footer */
-footer{
+footer {
     height: 80px;
     width: 100%;
     background-color: #222222;
     color: white;
-    
 }
-#footer-logo a{
+
+#footer-logo a {
     color: white;
     text-decoration: none;
 }
-.social-link{
-   gap: 10px;
-   color: white;
-}
-.social-link a{
-    color: white;
- }
 
-/* Footer */
+.social-link {
+    gap: 10px;
+    color: white;
+}
+
+.social-link a {
+    color: white;
+}
 
 /* Media Queries */
+@media screen and (max-width: 992px) {
+    .cardss .box {
+        width: calc(50% - 20px);
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .cardss .box {
+        width: calc(50% - 20px);
+    }
+
     .links ul li {
         display: none;
-    }    
-    .card1,.card2,.card3,.card4,.card5,
-    .card6,.card7,.card7,.card8,
-    .card9,.card9,.card10,.card11,.card12,.card13.card14,.card15,.card16,.card17,.card18,.card19,.card20{
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .cardss .box {
         width: 100%;
-        margin: 10px 10px;
     }
-    .card13,.card14{
-        width: 724px;
-    }
-    
-}
 
-@media screen and (max-width: 668px) {
     .links ul li {
         display: none;
     }
-
-   
 }
-@media screen and (max-width: 330px) {
-   .cards{
-    width: 100%;
-   }
-.text h2{
-    font-size: 1.5rem;
-}
-   
-}
-
-
