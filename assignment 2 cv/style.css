@@ -99,6 +99,6 @@ hr {
         margin-top: -10px;
     }
     html,body{
-        overflow: hidden;
+        overflow-y: hidden;
     }
 }
