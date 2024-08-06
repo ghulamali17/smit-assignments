@@ -12,11 +12,6 @@ html, body {
     overflow-x: hidden; 
   }
 
-  /* tests */
-
-
-  /* tests */
-
 /* Navbar */
 .navbarr{
     height: 92px;
@@ -121,27 +116,11 @@ font-size: 14px;
     color: #FFFFFF;
     margin-bottom: 8px;
 }
-.product-section span{
-    font-family: "Playball", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.new-sec span{
-    font-family: "Playball", cursive;
-  font-weight: 400;
-  font-style: normal;
-}
-.exp-fran span{
-    font-family: "Playball", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-.village-franchises span {
-    font-family: "Playball", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-.soon-heading{
+.product-section span,
+.new-sec span,
+.exp-fran span,
+.village-franchises span,
+.soon-heading {
     font-family: "Playball", cursive;
     font-weight: 400;
     font-style: normal;
