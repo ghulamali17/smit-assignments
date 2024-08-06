@@ -40,6 +40,10 @@ text-decoration: underline;
     transition: 0.2s ease-in-out; 
   
 }
+.card8{
+   background-image: url('/images/salt-n-paper.png');
+   background-size: cover;
+     }
 .card1{
    background-image: url('/images/color.png');
    background-size: cover;
