@@ -11,7 +11,9 @@ html, body {
     padding: 0;
     overflow-x: hidden; 
   }
-
+body p{
+    font-size: 16px !important;
+}
 /* Navbar */
 .navbarr{
     height: 92px;
@@ -129,6 +131,11 @@ font-size: 14px;
     font-family: "Playball", cursive;
     font-weight: 400;
     font-style: normal;
+}
+
+.exp-fran img{
+    height: 250px;
+    width: 350px;
 }
 
 /* product */
