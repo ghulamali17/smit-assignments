@@ -15,21 +15,54 @@
             <!-- navbar -->
     <div class="navbarr d-flex justify-content-around">
        <!-- dropdown -->
-       <div class="dropdown dopp mx-3">
-        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <i class="fa-solid fa-bars"></i>
-        </button>
-        <ul class="dropdown-menu dropdown-menu-dark">
-          <li><a class="dropdown-item active" href="#">Home</a></li>
-          <li><a class="dropdown-item" href="#">About us</a></li>
-          <li><a class="dropdown-item" href="#">Publications</a></li>
-          <li><hr class="dropdown-divider"></li>
-          <li><a class="dropdown-item" href="#">Feedback</a></li>
-          <li class=" dropdown-item btn1  text-center mt-2"><a href="#">Get A Franchise</a></li>
-          <li class=" dropdown-item btn2 text-center bg-danger mt-2"><a href="#">Order online  <i class="fa-solid fa-arrow-right bg-white" style="color: black; border-radius: 50%; padding: 2px;"></i></a></li>
-          
-        </ul>
-      </div>
+       <a
+       class="btn dopp d-lg-block d-xl-none fs-3"
+       style="background-color: transparent; border: none"
+       data-bs-toggle="offcanvas"
+       href="#offcanvasExample"
+       role="button"
+       aria-controls="offcanvasExample"
+     >
+       <i class="fa-solid fa-bars text-white"></i>
+     </a>
+     <div
+       class="offcanvas offcanvas-start"
+       tabindex="-1"
+       id="offcanvasExample"
+       aria-labelledby="offcanvasExampleLabel"
+     >
+       <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+           Salt n Pepper
+         </h5>
+         <button
+           type="button"
+           class="btn-close"
+           data-bs-dismiss="offcanvas"
+           aria-label="Close"
+         ></button>
+       </div>
+       <div class="offcanvas-body">
+         <div class="dropdown list-unstyled mt-3">
+           <li><a class="dropdown-item" href="#">Home</a></li>
+           <hr />
+           <li><a class="dropdown-item" href="#">About Us</a></li>
+           <hr />
+           <li>
+             <a class="dropdown-item" href="#">Pulications</a>
+           </li>
+           <hr />
+           <li>
+             <a class="dropdown-item" href="#">Feedback</a>
+           </li>
+           <hr />
+           <li>
+             <a class="dropdown-item" href="#">Get a Franchise</a>
+           </li>
+           <hr />
+         </div>
+       </div>
+     </div>
        <!-- dropdown -->
 
         <div class="logo"><img src="./images/logo2.png" width="150"></div>
@@ -39,8 +72,8 @@
             <li class="mt-3"><a href="#home">About us</a></li>
             <li class="mt-3"><a href="#home">Publications</a></li>
             <li class="mt-3"><a href="#home">Feedback</a></li>
-            <li class="btn1  text-center"><a href="#">Get A Franchise</a></li>
-            <li class="btn2 text-center bg-danger"><a href="#">Order online  <i class="fa-solid fa-arrow-right bg-white" style="color: black; border-radius: 50%; padding: 2px;"></i></a></li>
+            <li class="btn1  text-center "><a href="#">Get A Franchise</a></li>
+            <li class="btn2 text-center bg-danger "><a href="#">Order online  <i class="fa-solid fa-arrow-right bg-white" style="color: black; border-radius: 50%; padding: 2px;"></i></a></li>
           </ul>
           <a href="#" class="hiddenBtn btn2 text-center bg-danger text-white mx-1"> <i class="fa-solid fa-arrow-right bg-white mx-1 " style="color: red; border-radius: 50%; padding: 2px;"></i>Order online </a></li>
         </div>

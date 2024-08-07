@@ -42,6 +42,11 @@ a{
 .nav-imgg{
     display: none;
 }
+.itemsss ul{
+    /* display: inline-block !important; */
+    display: flex;
+    flex-direction: column;
+}
 /* Navbar */
 
 /* Buttons */
@@ -241,6 +246,7 @@ footer i{
     .navbarr ul li {
         display: none;
     }
+   
     .dopp{
         display: inline-block;
     }
