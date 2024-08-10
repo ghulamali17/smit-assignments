@@ -40,6 +40,10 @@ text-decoration: underline;
     transition: 0.2s ease-in-out; 
   
 }
+.card9{
+   background-image: url('/images/national-geo.png');
+   background-size: cover;
+     }
 .card8{
    background-image: url('/images/salt-n-paper.png');
    background-size: cover;
