@@ -340,9 +340,9 @@ input[type="email"]::placeholder {
 @media (min-width: 330px) {
     .main-scene img {
         height: 219px;
-        width: 219px;
-        margin-top: -37px;
-        margin-left: -365px;
+        width: 347px;
+        margin-top: -36px;
+        margin-left: -236px;
     }
     .v-border {
         height: 199px;
@@ -350,7 +350,7 @@ input[type="email"]::placeholder {
         margin-top: -194px;
         margin-right: -1px;
         margin-left: -565px;
-        left: 575px;
+        left: 636px;
     }
     .textt h1 {
         font-size: 1.75rem;
