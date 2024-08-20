@@ -337,19 +337,19 @@ input[type="email"]::placeholder {
         /* top: 146px; */
     }
 }
-@media (max-width: 320px) {
+@media (max-width: 340px) {
     .main-scene img {
         height: 219px;
         width: 219px;
         margin-top: -37px;
-        margin-left: -403px;
+        margin-left: -365px;
     }
     .v-border {
         height: 199px;
         width: 246px;
         margin-top: -194px;
         margin-right: -1px;
-        margin-left: -588px;
+        margin-left: -565px;
         left: 575px;
     }
     .textt h1 {
