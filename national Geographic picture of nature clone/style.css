@@ -50,7 +50,7 @@ html, body {
     text-decoration: none;
     color: white;
     letter-spacing: 2px;
-    font-size: 0.875rem;
+    font-size: 0.5rem;
     line-height: 1.4;
     margin-top: 20px;
     margin-bottom: 60px !important;
@@ -64,6 +64,11 @@ html, body {
     color: black !important;
 }
 .border-p{
+    border: 7px solid #FFCE3E;
+    padding: 30px;
+    
+}
+.border-i{
     border: 7px solid #FFCE3E;
     padding: 30px;
     
