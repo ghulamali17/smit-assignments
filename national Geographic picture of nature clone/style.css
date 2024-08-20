@@ -337,7 +337,7 @@ input[type="email"]::placeholder {
         /* top: 146px; */
     }
 }
-@media (max-width: 330px) {
+@media (min-width: 330px) {
     .main-scene img {
         height: 219px;
         width: 219px;
