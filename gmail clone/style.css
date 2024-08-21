@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+nav{
+    height: 65px;
+    background-color:#F6F8FC;
+    display: flex;
+  
+    align-items: center;
+   padding-left: 20px;
+   gap: 10px;
+   justify-content: space-between;
+
+}
+.search {
+    flex-grow: 1; /* Allow the search section to take available space */
+    max-width: 600px; /* Set a maximum width */
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    border-radius: 28px;
+    background: #EAF1FB;
+    font: 13px / 27px Roboto, Arial, sans-serif;
+    margin-right: 20px; /* Add some space between the search and the last content */
+}
+
+.search-input {
+    font-size: 16px;
+    margin-left: 14px;
+    outline: none;
+    border: none;
+    background: transparent;
+    flex-grow: 1; /* Allow the input to grow and take available space */
+}
+
+.search i.fa-sliders {
+    margin-left: 300px; /* Add some space between the input and the icon */
+}
+.question{
+    border: 1px solid black;
+    border-radius: 70%;
+}
+.profile{
+    border-radius: 60%;
+}
+
+.sidebar{
+    background-color:#F6F8FC;
+    width: 256px;
+    height: 450px;
+    display: flex;
+    flex-direction: column; /* Stack icons vertically */
+    gap: 20px; /* Add space between icons */
+}
+.right-sidebar{
+    background-color:#F6F8FC;
+    width: 56px;
+    height: 450px;
+    float: right;
+}
+.pencil{
+    border-radius: 16px;
+    color: #001d35;
+    padding: 0 24px 0 0;
+    box-shadow: 0 1px 2px 0 #0000, 0 1px 3px 1px #0000;
+    cursor: pointer;
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15);
+    font-size: 0.875rem;
+    letter-spacing: normal;
+    background-color: #C2E7FF;
+    align-items: center;
+     display: inline-flex;
+    font-weight: 500;
+    height: 56px;
+    width: 120px;
+    overflow: hidden;
+}
+
