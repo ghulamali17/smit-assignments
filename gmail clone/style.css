@@ -106,13 +106,120 @@ nav{
 .main-buttons{
     height: 56px;
     width: 100%;
-    background-color: palegreen;
+  
+    display: flex;
+}
+.primaryy{
+    height: 56px;
+    /* width: 167px; */
+    width: 17.5%;
+    /* background-color: #333; */
+    display: flex;
+    align-items: center;
+}
+/* .promo{
+    height: 56px;
+    width: 171px;
+   
+}
+.new-btn{
+    border: 1px solid transparent;
+    background-color: #188038;
+    border-radius: 36px;
+} */
+.promo {
+    width: 25%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: hidden; 
+}
+
+.itts {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.itts2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 8px; /* Adds space between the icon and the text */
+    width: 100%;
+}
+
+.new-btn {
+    border: 1px solid transparent;
+    background-color: #188038;
+    border-radius: 36px;
+    padding: 2px 8px;
+    font-size: 12px;
+    height: fit-content;
+}
+
+.promo-emails {
+    margin-top: 2px; 
+    color: #5f6368;
+    font-size: 13px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+/* tests */
+
+/* .promo {
+    width: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px; 
+    box-sizing: border-box; 
+}
+
+.itts {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between; 
+}
+
+.new-btn {
+    border: 1px solid transparent;
+    background-color: #0c697b;
+    border-radius: 36px;
+    padding: 2px 8px;
+    color: white; 
+    font-size: 0.8em; 
+} */
+
+
+/* testss */
+.socail{
+    height: 56px;
+    width: 25%;
+  
+    display: flex;
+    align-items: center;
+
+}
+.update{
+    height: 56px;
+   width: 25%;
+    display: flex;
+    align-items: center;
 }
 .content-div{
     height: 40px;
     width: 100%;
     background-color: aqua;
     border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
 
 }
 /* test */
@@ -126,13 +233,20 @@ nav{
     border-radius: 10px;
 }
 
-.toolbar-item {
+.three{
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-item,
+.toolbar-items {
     margin-right: 20px;
     display: flex;
     align-items: center;
 }
 
-.toolbar-item input[type="checkbox"] {
+.toolbar-item input[type="checkbox"],
+.toolbar-items input[type="checkbox"] {
     appearance: none;
     -webkit-appearance: none;
     width: 16px;
