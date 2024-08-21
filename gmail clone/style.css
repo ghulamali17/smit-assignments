@@ -2,7 +2,9 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
+    box-sizing: border-box;
 }
+
 nav{
     height: 65px;
     background-color:#F6F8FC;
@@ -45,21 +47,32 @@ nav{
 .profile{
     border-radius: 60%;
 }
-
+.main-container{
+    height: 100vh;
+    width: 100%;
+}
 .sidebar{
     background-color:#F6F8FC;
-    width: 256px;
-    height: 450px;
+   
+    /* width: 256px; */
+    width: 20%;
+    height: 100%;
     display: flex;
     flex-direction: column; /* Stack icons vertically */
     gap: 20px; /* Add space between icons */
+    float: left;
 }
+
 .right-sidebar{
     background-color:#F6F8FC;
-    width: 56px;
-    height: 450px;
-    float: right;
+   height: 100%;
+   width: 10%;
+   float: right;
+    /* width: 56px;
+    height: 450px; */
+  
 }
+
 .pencil{
     border-radius: 16px;
     color: #001d35;
@@ -77,4 +90,100 @@ nav{
     width: 120px;
     overflow: hidden;
 }
+.mainn{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    float: left;
+    border-radius: 5px;
+    overflow: scroll;
+}
+.main-header{
+    height: 50px;
+    width: 100%;
+    background-color: red;
+}
+.main-buttons{
+    height: 56px;
+    width: 100%;
+    background-color: palegreen;
+}
+.content-div{
+    height: 40px;
+    width: 100%;
+    background-color: aqua;
+    border: 1px solid black;
 
+}
+/* test */
+
+
+.toolbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.toolbar-item {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.toolbar-item input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 16px;
+    height: 16px;
+    border: 2px solid #666;
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    position: relative;
+    margin-right: 5px;
+}
+
+.toolbar-item input[type="checkbox"]::after {
+    content: '▾'; /* Unicode for down arrow */
+    position: absolute;
+    top: -2px;
+    right: -20px;
+    font-size: 12px;
+    color: #666;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #666;
+    padding: 5px;
+}
+
+.icon-button:hover {
+    color: #333;
+}
+
+.toolbar-info {
+    margin-left: auto;
+    margin-right: 20px;
+    color: #666;
+}
+
+.toolbar-navigation .nav-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #999;
+}
+
+.toolbar-navigation .nav-button:hover {
+    color: #333;
+}
+
+
+
+/* test */
