@@ -4,7 +4,13 @@
     text-decoration: none;
     box-sizing: border-box;
 }
-
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+  }
 nav{
     height: 65px;
     background-color:#F6F8FC;
@@ -17,15 +23,15 @@ nav{
 
 }
 .search {
-    flex-grow: 1; /* Allow the search section to take available space */
-    max-width: 600px; /* Set a maximum width */
+    flex-grow: 1; 
+    max-width: 600px;
     display: flex;
     align-items: center;
     padding: 14px;
     border-radius: 28px;
     background: #EAF1FB;
     font: 13px / 27px Roboto, Arial, sans-serif;
-    margin-right: 20px; /* Add some space between the search and the last content */
+    margin-right: 20px;
 }
 
 .search-input {
@@ -34,11 +40,11 @@ nav{
     outline: none;
     border: none;
     background: transparent;
-    flex-grow: 1; /* Allow the input to grow and take available space */
+    flex-grow: 1; 
 }
 
 .search i.fa-sliders {
-    margin-left: 300px; /* Add some space between the input and the icon */
+    margin-left: 300px; 
 }
 .question{
     border: 1px solid black;
@@ -50,16 +56,15 @@ nav{
 .main-container{
     height: 100vh;
     width: 100%;
+
 }
 .sidebar{
     background-color:#F6F8FC;
-   
-    /* width: 256px; */
     width: 20%;
     height: 100%;
     display: flex;
-    flex-direction: column; /* Stack icons vertically */
-    gap: 20px; /* Add space between icons */
+    flex-direction: column;
+    gap: 20px; 
     float: left;
 }
 
@@ -68,8 +73,6 @@ nav{
    height: 100%;
    width: 5%;
    float: right;
-    /* width: 56px;
-    height: 450px; */
   
 }
 
@@ -102,6 +105,8 @@ nav{
     float: left;
     border-radius: 5px;
     overflow: scroll;
+    word-wrap: break-word;
+   
 }
 .main-header{
     height: 50px;
@@ -116,23 +121,12 @@ nav{
 }
 .primaryy{
     height: 56px;
-    /* width: 167px; */
     width: 17.5%;
-    /* background-color: #333; */
     display: flex;
     align-items: center;
     cursor: pointer;
 }
-/* .promo{
-    height: 56px;
-    width: 171px;
-   
-}
-.new-btn{
-    border: 1px solid transparent;
-    background-color: #188038;
-    border-radius: 36px;
-} */
+
 .promo {
     width: 25%;
     display: flex;
@@ -152,7 +146,7 @@ nav{
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    margin-left: 8px; /* Adds space between the icon and the text */
+    margin-left: 8px;
     width: 100%;
 }
 
@@ -174,36 +168,6 @@ nav{
     text-overflow: ellipsis;
     width: 100%;
 }
-
-/* tests */
-
-/* .promo {
-    width: 168px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 5px; 
-    box-sizing: border-box; 
-}
-
-.itts {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between; 
-}
-
-.new-btn {
-    border: 1px solid transparent;
-    background-color: #0c697b;
-    border-radius: 36px;
-    padding: 2px 8px;
-    color: white; 
-    font-size: 0.8em; 
-} */
-
-
-/* testss */
 .socail{
     height: 56px;
     width: 25%;
@@ -227,9 +191,16 @@ nav{
     justify-content: space-between;
     text-align: center;
     cursor: pointer;
-    
-
 }
+.truncated-text {
+    display: inline-block;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+}
+
 /* test */
 
 
@@ -267,7 +238,7 @@ nav{
 }
 
 .toolbar-item input[type="checkbox"]::after {
-    content: '▾'; /* Unicode for down arrow */
+    content: '▾';
     position: absolute;
     top: -2px;
     right: -20px;
@@ -305,7 +276,3 @@ nav{
 .toolbar-navigation .nav-button:hover {
     color: #333;
 }
-
-
-
-/* test */
