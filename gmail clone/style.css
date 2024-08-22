@@ -214,7 +214,6 @@ nav{
 .content-div{
     height: 40px;
     width: 100%;
-    background-color: aqua;
     border: 1px solid black;
     display: flex;
     justify-content: space-between;
