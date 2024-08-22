@@ -37,18 +37,6 @@
      gap: 2rem;
      
   }  
-
-
-  /* .nav-links {
-    display: flex;
-    gap: 2rem;
-    list-style: none;
-    position: static;
-    padding: 0;
-    flex-direction: row;
-    background-color: transparent;
-    transform: none;
-  } */
   .nav-links {
     display: flex;
     gap: 2rem;
@@ -104,7 +92,7 @@
     background-color: var(--secondary-color-light);
   }
   .about__image img {
-    max-width: 296px;
+    max-width: 386px;
     margin: auto;
 }
   .about-content h4 {
