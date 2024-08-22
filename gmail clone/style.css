@@ -67,12 +67,14 @@ nav{
     gap: 20px; 
     float: left;
 }
-
 .right-sidebar{
     background-color:#F6F8FC;
    height: 100%;
    width: 5%;
    float: right;
+   display: flex;
+   flex-direction: column;
+   gap: 20px; 
   
 }
 
