@@ -52,6 +52,7 @@
   display: none;
 }
 
+
   .link a{
    color: white;
     text-decoration: none;
@@ -259,7 +260,11 @@ background-color: var(--secondary-color-dark);
     }
 /* contactt */
 
-
+@media (min-width: 991.98px) {
+  .btn.dopp {
+    display: none;
+  }
+}
 @media (max-width: 768px)
 {
     html, body {
@@ -274,14 +279,14 @@ background-color: var(--secondary-color-dark);
         display: none;
     }
    
-    .dopp{
-        display: inline-block;
-    }
+   .dopp{
+    display: inline-block;
+   }
     .dopp ul li{
         display: inline-block;
     }
   }
-  @media (max-width: 460px) {
+  @media (min-width: 460px) {
     #contact h2{
         font-size: 3rem;
  
@@ -296,5 +301,9 @@ background-color: var(--secondary-color-dark);
      .banner__card {
       width: 281px;
   }
+  .about__image img {
+    max-width: 281px;
+    margin: auto;
+}
    
  }
