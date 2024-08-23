@@ -93,7 +93,7 @@
     background-color: var(--secondary-color-light);
   }
   .about__image img {
-    max-width: 296px;
+    max-width: 455px;
     margin: auto;
 }
   .about-content h4 {
@@ -237,8 +237,6 @@ background-color: var(--secondary-color-dark);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     background-clip: text; 
-   
-
 }
     .social-links {
       margin-top: 40px;
@@ -295,6 +293,10 @@ background-color: var(--secondary-color-dark);
       font-size: 3rem;
 
   }
+  .about__image img {
+    max-width: 296px;
+    margin: auto;
+}
   }
   @media (min-width: 460px) {
     #contact h2{
@@ -311,10 +313,7 @@ background-color: var(--secondary-color-dark);
      .banner__card {
       width: 281px;
   }
-  .about__image img {
-    max-width: 281px;
-    margin: auto;
-}
+  
 
    
  }
