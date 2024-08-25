@@ -97,10 +97,12 @@ nav{
     overflow: hidden;
 }
 .hover-eff:hover{
-    background-color: #D3E3FD;
+    /* background-color: #D3E3FD; */
     border-radius: 0 20px 20px 0;
     cursor: pointer;
+  
 }
+
 .mainn{
     width: 75%;
     height: 100%;
@@ -189,11 +191,14 @@ nav{
 .content-div{
     height: 40px;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     text-align: center;
     cursor: pointer;
+}
+.content-div:hover{
+    box-shadow: 0px 4px 8px rgba(93, 88, 88, 0.5);
 }
 .truncated-text {
     display: inline-block;
@@ -261,6 +266,15 @@ nav{
 .icon-button:hover {
     color: #333;
 }
+/* .icon-button:hover{
+   
+} */
+.hover-eff:hover{
+     background-color: rgb(208, 207, 207);
+    border-radius: 11px;
+  
+ }
+
 
 .toolbar-info {
     margin-left: auto;
