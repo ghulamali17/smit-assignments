@@ -44,15 +44,12 @@
     position: static;
     padding: 0;
     flex-direction: row;
-
     transform: none;
     align-items: center; 
 }
 .dopp{
   display: none;
 }
-
-
   .link a{
    color: white;
     text-decoration: none;
