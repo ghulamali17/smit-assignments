@@ -171,3 +171,13 @@ alert("The price of 6 tickets to a movie is " +tickets)
 
 }
 
+function shipCharges(){
+   let item1Price = 200;
+   let item2Price = 400;
+   let quantity1 = 5;
+   let quantity2 = 2;
+   let shipCharges = 250;
+   let total = (item1Price * quantity1) + (item2Price * quantity2) + shipCharges;
+   alert("The total price is: " + total);
+   
+}
