@@ -181,3 +181,11 @@ function shipCharges(){
    alert("The total price is: " + total);
    
 }
+function per(){
+
+   let totalMarks=1100;
+let obtained=950;
+let per=obtained*100/totalMarks;
+alert("Your Percentage is " + per)
+
+}
