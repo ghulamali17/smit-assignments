@@ -86,3 +86,88 @@ function sequence(){
 //  var var;  
 
  }
+
+ function test(){
+   let number1=+prompt("Enter First Number:")
+   let number2=+prompt("Enter Second Number:")
+   result=number1+number2;
+   document.write("The sum of "+ number1 + " and number " + number2 + " is "+ result)
+ }
+ 
+ function sub(){
+   let number1=+prompt("Enter First Number:")
+   let number2=+prompt("Enter Second Number:")
+   result=number1-number2;
+   document.write("The substraction of "+ number1 + " and number " + number2 + " is "+ result)
+ }
+ 
+ function mul(){
+   let number1=+prompt("Enter First Number:")
+   let number2=+prompt("Enter Second Number:")
+   result=number1*number2;
+   document.write("The multiplication of "+ number1 + " and number " + number2 + " is "+ result)
+ }
+ 
+ function div(){
+   let number1=+prompt("Enter First Number:")
+   let number2=+prompt("Enter Second Number:")
+   result=number1/number2;
+   document.write("The division of "+ number1 + " and number " + number2 + " is "+ result)
+ }
+ 
+ function mod(){
+   let number1=+prompt("Enter First Number:")
+   let number2=+prompt("Enter Second Number:")
+   result=number1%number2;
+   document.write("The modulus of "+ number1 + " and number " + number2 + " is "+ result)
+ }
+ function uiui(){
+   let variable;
+alert("Value after variable declaration is:" +  variable)
+ variable=5;
+alert("Initial value:" +  variable)
+variable++;
+alert("Value after increment is: " +  variable)
+variable=variable+7;
+alert("Value after addition is: " +  variable)
+variable--;
+alert("Value after decrement is: " +  variable);
+
+var remainder = variable % 3;
+
+alert("The remainder is: " +  remainder);
+
+ }
+ function cost(){
+let price=600;
+tickets=5*price;
+alert("The price of 6 tickets to a movie is " +tickets)
+ }
+
+ function table(){
+   let table = 4;
+
+   document.write(table + " x 1 = " + (table * 1) + "<br>");
+   document.write(table + " x 2 = " + (table * 2) + "<br>");
+   document.write(table + " x 3 = " + (table * 3) + "<br>");
+   document.write(table + " x 4 = " + (table * 4) + "<br>");
+   document.write(table + " x 5 = " + (table * 5) + "<br>");
+   document.write(table + " x 6 = " + (table * 6) + "<br>");
+   document.write(table + " x 7 = " + (table * 7) + "<br>");
+   document.write(table + " x 8 = " + (table * 8) + "<br>");
+   document.write(table + " x 9 = " + (table * 9) + "<br>");
+   document.write(table + " x 10 = " + (table * 10) + "<br>");
+
+ }
+
+ function tempp() {
+
+   let celTemp = 25;
+   let fTemp = (celTemp * 9/5) + 32;
+  alert(`${celTemp}°C is ${fTemp}°F`);
+   fTemp = 77;
+   celTemp = (fTemp - 32) * 5/9;
+  alert(`${fTemp}°F is ${celTemp}°C`);
+
+}
+
