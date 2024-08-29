@@ -189,3 +189,34 @@ let per=obtained*100/totalMarks;
 alert("Your Percentage is " + per)
 
 }
+function exchange(){
+  let usDollars = 10;
+let saudiRiyals = 25;
+let exchangeRateDollarToPkr = 178;
+let exchangeRateRiyalToPkr = 28;
+
+let totalInPkr = (usDollars * exchangeRateDollarToPkr) 
++ (saudiRiyals * exchangeRateRiyalToPkr);
+
+alert("The total amount in Pakistani Rupees is: " + totalInPkr);
+
+}
+
+function number(){
+
+let Number = 7; 
+
+let result = (((Number + 5) * 10) / 2);
+
+alert("The result is: " + result);
+}
+function agee(){
+  let currentYear = 2024; 
+let birthYear = 1995;  
+
+let age1 = currentYear - birthYear;
+let age2 = age1 - 1;
+
+alert("They are either " + age2 + " or " + age1 + " years old.");
+
+}
