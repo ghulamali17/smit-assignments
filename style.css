@@ -167,7 +167,8 @@ height: 250px;
   
     /* width: 320px;
     height: 360px; */
-    width: 400px;
+    /* width: 400px; */
+    max-width: 400px;
     border-radius: 10px;
     transition: 0.2s ease-in-out;
     margin-top: 50px;
@@ -295,8 +296,13 @@ background-color: var(--secondary-color-dark);
     max-width: 296px;
     margin: auto;
 }
+.buttons a {
+  padding: 2px 2px;
+  margin-left: 2px;
+
+}
   }
-  @media (min-width: 460px) {
+  @media (max-width: 460px) {
     #contact h2{
         font-size: 3rem;
  
@@ -311,7 +317,11 @@ background-color: var(--secondary-color-dark);
      .banner__card {
       width: 281px;
   }
+  .buttons a {
+    padding: 10px 20px;
+    /* margin-left: 2px; */
   
+  }
 
    
  }
