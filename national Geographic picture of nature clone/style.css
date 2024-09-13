@@ -1,4 +1,4 @@
-/* <!-- navbarr --> */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ html, body {
     overflow-x: hidden; 
     background-color: #1A1A1A !important;
   }
-  
+  /* <!-- navbarr --> */
 .navbarr{
     border-bottom: 2px solid white;
     height: 120px;
@@ -306,11 +306,9 @@ input[type="email"]::placeholder {
        margin-left: 3px;
     }
     .u-border{
-      
         bottom: -200px;
         height: 200px;
         width: 250px;
-        /* top: 150px; */
        
     }
     .main-scene img{
