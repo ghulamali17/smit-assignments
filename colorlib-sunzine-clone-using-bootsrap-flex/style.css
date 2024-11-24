@@ -45,6 +45,9 @@ ul li a {
 .link-switches a {
     color: #000;
 }
+.hamburger{
+display: none !important;
+}
 
 /* Hero Section */
 .hero-sectionn {
@@ -209,6 +212,12 @@ footer {
 
     .links ul li {
         display: none;
+    }
+    .fa-magnifying-glass{
+        display: none !important;
+    }
+    .hamburger{
+        display: inline-block !important;
     }
 }
 
