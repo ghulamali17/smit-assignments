@@ -375,3 +375,62 @@ input[type="email"]::placeholder {
         height: 408px;
     }
  }
+ @media (max-width: 768px) {
+    .tptp {
+        flex-direction: column;
+    }
+    .tptp .col-12 {
+        margin-bottom: 20px;
+    }
+    .tptp img {
+        width: 100%;
+        height: auto;
+    }
+    .tptp .border-w {
+        padding: 20px;
+    }
+    .textt {
+        flex-direction: column-reverse;
+    }
+    .textt h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+    .textt h2 {
+        font-size: 1.5rem;
+    }
+    .textt h5 {
+        font-size: 1rem;
+    }
+    .textt a {
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 560px) {
+    .tptp {
+        flex-direction: column;
+    }
+    .tptp img {
+        width: 100%;
+        height: auto;
+    }
+    .textt {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .textt h1 {
+        font-size: 1.75rem;
+    }
+    .textt h2 {
+        font-size: 1.25rem;
+    }
+    .textt h5 {
+        font-size: 0.875rem;
+    }
+    .textt a {
+        font-size: 0.875rem;
+    }
+}
