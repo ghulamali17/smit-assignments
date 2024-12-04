@@ -4,7 +4,12 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f0f0f0;
+    background-image: url('./images/3274408.jpg');
+    background-size: cover;
+    margin: 0;
+    position: relative; 
 }
+
 .container {
     max-width: 500px;
     width: 220px;
@@ -12,7 +17,25 @@ body {
     border-radius: 10px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     background-color: black;
+    z-index: 1; 
 }
+
+.freepik-link {
+    position: absolute;
+    bottom: 20px; 
+    right: 20px; 
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    z-index: 2; 
+    color: black;
+}
+
+.freepik-link:hover {
+    text-decoration: underline;
+}
+
 
 input {
     padding: 20px;
