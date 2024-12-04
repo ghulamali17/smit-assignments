@@ -1,87 +1,64 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Salt n Paper</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playball&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Salt n Paper</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playball&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
-  <body>
-            <!-- navbar -->
-    <div class="navbarr d-flex justify-content-around">
-       <!-- dropdown -->
-       <a
-       class="btn dopp d-lg-block d-xl-none fs-3"
-       style="background-color: transparent; border: none"
-       data-bs-toggle="offcanvas"
-       href="#offcanvasExample"
-       role="button"
-       aria-controls="offcanvasExample"
-     >
-       <i class="fa-solid fa-bars text-white"></i>
-     </a>
-     <div
-       class="offcanvas offcanvas-start"
-       tabindex="-1"
-       id="offcanvasExample"
-       aria-labelledby="offcanvasExampleLabel"
-     >
-       <div class="offcanvas-header">
-         <h5 class="offcanvas-title" id="offcanvasExampleLabel">
-           Salt n Pepper
-         </h5>
-         <button
-           type="button"
-           class="btn-close"
-           data-bs-dismiss="offcanvas"
-           aria-label="Close"
-         ></button>
-       </div>
-       <div class="offcanvas-body">
-         <div class="dropdown list-unstyled mt-3">
-           <li><a class="dropdown-item" href="#">Home</a></li>
-           <hr />
-           <li><a class="dropdown-item" href="#">About Us</a></li>
-           <hr />
-           <li>
-             <a class="dropdown-item" href="#">Pulications</a>
-           </li>
-           <hr />
-           <li>
-             <a class="dropdown-item" href="#">Feedback</a>
-           </li>
-           <hr />
-           <li>
-             <a class="dropdown-item" href="#">Get a Franchise</a>
-           </li>
-           <hr />
-         </div>
-       </div>
-     </div>
-       <!-- dropdown -->
-        
-
-        <div class="logo"><img src="./images/logo2.png" width="150"></div>
-        
-        <ul class="d-flex gap-4 aligns-item-center fs-5">
-            <li class="mt-3"><a href="#home">Home</a></li>
-            <li class="mt-3"><a href="#home">About us</a></li>
-            <li class="mt-3"><a href="#home">Publications</a></li>
-            <li class="mt-3"><a href="#home">Feedback</a></li>
-            <li class="btn1  text-center "><a href="#">Get A Franchise</a></li>
-            <li class="btn2 text-center bg-danger "><a href="#">Order online  <i class="fa-solid fa-arrow-right bg-white" style="color: black; border-radius: 50%; padding: 2px;"></i></a></li>
-          </ul>
-          <a href="#" class="hiddenBtn btn2 text-center bg-danger text-white mx-1"> <i class="fa-solid fa-arrow-right bg-white mx-1 " style="color: red; border-radius: 50%; padding: 2px;"></i>Order online </a></li>
+<body>
+  <!-- Navbar -->
+  <div class="navbarr d-flex justify-content-around">
+    <!-- Dropdown -->
+    <a class="btn dopp d-lg-block d-xl-none fs-3" style="background-color: transparent; border: none" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      <i class="fa-solid fa-bars text-white"></i>
+    </a>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Salt n Pepper</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="dropdown list-unstyled mt-3">
+          <li><a class="dropdown-item" href="#">Home</a></li>
+          <hr />
+          <li><a class="dropdown-item" href="#">About Us</a></li>
+          <hr />
+          <li><a class="dropdown-item" href="#">Publications</a></li>
+          <hr />
+          <li><a class="dropdown-item" href="#">Feedback</a></li>
+          <hr />
+          <li><a class="dropdown-item" href="#">Get a Franchise</a></li>
+          <hr />
         </div>
+      </div>
+    </div>
+    <!-- Logo -->
+    <div class="logo"><img src="./images/logo2.png" width="150"></div>
+    <!-- Navbar Links -->
+    <ul class="d-flex gap-4 align-items-center fs-5">
+      <li class="mt-3"><a href="#home">Home</a></li>
+      <li class="mt-3"><a href="#about">About us</a></li>
+      <li class="mt-3"><a href="#publications">Publications</a></li>
+      <li class="mt-3"><a href="#feedback">Feedback</a></li>
+      <li class="btn1 text-center"><a href="#">Get A Franchise</a></li>
+      <li class="btn2 text-center bg-danger">
+        <a href="#">Order online <i class="fa-solid fa-arrow-right bg-white" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+      </li>
+    </ul>
+    <a href="#" class="hiddenBtn btn2 text-center bg-danger text-white mx-1">
+      <i class="fa-solid fa-arrow-right bg-white mx-1" style="color: red; border-radius: 50%; padding: 2px;"></i>Order online
+    </a>
+  </div>
 
-            <!-- navbar -->
-  <!-- slider -->
-  <div id="Restaurant-Slider" class="carousel slide">
+  <!-- Slider -->
+   <section class="slider-section">
+  <div id="Restaurant-Slider" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="./images/banner.png" class="d-block w-100" alt="...">
@@ -93,407 +70,399 @@
         <img src="./images/banner3.png" class="d-block w-100" alt="...">
       </div>
     </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <button class="carousel-control-prev" type="button" data-bs-target="#Restaurant-Slider" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Previous</span>
     </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <button class="carousel-control-next" type="button" data-bs-target="#Restaurant-Slider" data-bs-slide="next">
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+  
+  <!-- nav responsive mobile img -->
+  <a href="#"><img src="./images/nav mobile img.png" alt="" class="nav-imgg img-fluid"></a>
+</section>
 
-   <!-- nav responsive mobile img -->
-   <a href="#"><img src="./images/nav mobile img.png" alt="" class="nav-imgg img-fluid"></a>
-   <!-- nav responsive mobile img -->
-
-<!-- sliderr -->
-
-    <!-- hero -->
+  <!-- Hero Section -->
+  <section class="hero-section">
     <div class="container-fluid product-section py-5" style="background-color: #000000;">
       <div class="container">
-          <div class="productss d-flex text-center gap-2 justify-content-around ">
-            <div class="pro1"><img src="./images/res.png" width="" alt="" class="img-fluid  lazy-img bg-white"></div>
-            <div class="pro2"><img src="./images/express.png" alt="" class="img-fluid lazy-img bg-white"></div>
-            <div class="pro3"><img src="./images/village.png" alt="" class="img-fluid lazy-img bg-white"></div>
-          </div>
-          <div class="btnss  d-flex justify-content-around">
-            <a href="#" class="btn3 pro-btn text-center">Order Now</a>
-            <a href="#" class="btn3 pro-btn text-center">Order Now</a>
-            <a href="#" class="btn3 pro-btn">Reserve Table</a>
-
-          </div>
+        <div class="productss d-flex text-center gap-2 justify-content-around">
+          <div class="pro1"><img src="./images/res.png" alt="" class="img-fluid lazy-img bg-white"></div>
+          <div class="pro2"><img src="./images/express.png" alt="" class="img-fluid lazy-img bg-white"></div>
+          <div class="pro3"><img src="./images/village.png" alt="" class="img-fluid lazy-img bg-white"></div>
+        </div>
+        <div class="btnss d-flex justify-content-around">
+          <a href="#" class="btn3 pro-btn text-center">Order Now</a>
+          <a href="#" class="btn3 pro-btn text-center">Order Now</a>
+          <a href="#" class="btn3 pro-btn">Reserve Table</a>
+        </div>
       </div>
-  </div>
-        <!-- hero -->
+    </div>
+  </section>
 
         <!-- Locations-->
-         <section class="locations text-center">
-<div class="container-fluid new-sec" style="background-color: #0F0F0F;">
-  <div class="container text-white">
-    <!-- islamabad -->
-  <div class="row text-center ">
-    <div class="col-12 col-md-12 col-sm-12 col-lg-12"> <h2> <span>Salt'n Pepper </span> <br> Restaurant Franchises</h2> <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</div>
-    </div>
+ <section class="locations text-center">
+  <div class="container-fluid new-sec" style="background-color: #0F0F0F;">
+    <div class="container text-white">
       <!-- islamabad -->
-      <div class="row">
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-5 mt-4"><p class="text-danger">
-          Islamabad</p>
-          <h1> <span>Salt'n Pepper </span> Restaurant</h1>
-          <p> <i class="fa-solid fa-location-dot "></i>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
-          <p> <i class="fa-solid fa-phone px-1"></i>Ph: 051-2604904-6</p>
-          <a href="#" class="btn3 mt-2 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-        </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-danger mt-4 "><img src="./images/isb.png" alt="" class="img-fluid ms-auto text-end"> </div>
+    <div class="row text-center ">
+      <div class="col-12 col-md-12 col-sm-12 col-lg-12"> <h2> <span>Salt'n Pepper </span> <br> Restaurant Franchises</h2> <p>Each of our franchises are individually managed. For further details, kindly contact them directly.</div>
       </div>
         <!-- islamabad -->
-     
-      <!-- faislabad -->
-      <div class="row fsl">
-       
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-danger mt-4"><img src="./images/faisalabad.png" alt="" class="img-fluid"> </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5"><p class="text-danger">
-          Faisalabad</p>
-          <h1> <span>Salt'n Pepper </span> Restaurant</h1>
-          <p> <i class="fa-solid fa-location-dot px-1 mt-4"></i>4-Kohinoor City, Faisalabad</p>
-          <p> <i class="fa-solid fa-phone px-1"></i> Ph: 041-8711404</p>
-          <a href="#" class="btn3 mt-2 text-white ">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 py-5 mt-4"><p class="text-danger">
+            Islamabad</p>
+            <h1> <span>Salt'n Pepper </span> Restaurant</h1>
+            <p> <i class="fa-solid fa-location-dot "></i>Plot# 55, Shabbir Plaza, Blue Area, F-6, Islamabad</p>
+            <p> <i class="fa-solid fa-phone px-1"></i>Ph: 051-2604904-6</p>
+            <a href="#" class="btn3 mt-2 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-danger mt-4 "><img src="./images/isb.png" alt="" class="img-fluid ms-auto text-end"> </div>
         </div>
-      </div>
-      <div class="row bhll">
+          <!-- islamabad -->
        
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-danger mt-4"><img src="./images/bhalwalpur.png" alt="" class="img-fluid"> </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 mb-5"><p class="text-danger">
-          BHAWALPUR</p>
-          <h1> <span>Salt'n Pepper </span> Restaurant</h1>
-          <p> <i class="fa-solid fa-location-dot px-1 mt-4"></i>D.C Chowk, opposite Commissioner House, Bahawalpur</p>
-          <p> <i class="fa-solid fa-phone px-1"></i> Ph: 062-2740271-2</p>
-          <a href="#" class="btn3 mt-2 text-white ">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+        <!-- faislabad -->
+        <div class="row fsl">
+         
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-danger mt-4"><img src="./images/faisalabad.png" alt="" class="img-fluid"> </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5"><p class="text-danger">
+            Faisalabad</p>
+            <h1> <span>Salt'n Pepper </span> Restaurant</h1>
+            <p> <i class="fa-solid fa-location-dot px-1 mt-4"></i>4-Kohinoor City, Faisalabad</p>
+            <p> <i class="fa-solid fa-phone px-1"></i> Ph: 041-8711404</p>
+            <a href="#" class="btn3 mt-2 text-white ">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+          </div>
+        </div>
+        <div class="row bhll">
+         
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 text-danger mt-4"><img src="./images/bhalwalpur.png" alt="" class="img-fluid"> </div>
+          <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5 mb-5"><p class="text-danger">
+            BHAWALPUR</p>
+            <h1> <span>Salt'n Pepper </span> Restaurant</h1>
+            <p> <i class="fa-solid fa-location-dot px-1 mt-4"></i>D.C Chowk, opposite Commissioner House, Bahawalpur</p>
+            <p> <i class="fa-solid fa-phone px-1"></i> Ph: 062-2740271-2</p>
+            <a href="#" class="btn3 mt-2 text-white ">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  <!-- Bahawalpur -->
-</section>
-        
-
-    <!-- Locations-->
-
-        <!-- Express Franchises -->
-
-        <div class="container-fluid exp-fran" style="background-color: #000000;">
-          <div class="container text-white">
-            <div class="row text-center">
-    
-              <div class="col-12 col-md-12 col-sm-12 col-lg-12"> <h2><span>Salt'n Pepper</span> <br> Express Franchises</h2></div>
-              </div>
-           <!-- First Row-->
-            <div class="row text-center">
-              <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/emp mall.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">Emporium Mall</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>Sixteenth Avenue Mall</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 0300-6024000</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/gujrawala.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">Gujranwala</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-111-100-678</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/sargoda.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">DHA</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i> Opposite Sargodha Arts Council Babar Road</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 048-3725500</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-            </div>
+    <!-- Bahawalpur -->
+  </section>
           
-             <!-- First Row -->
-
-            <!-- Second row-->
-            <div class="row text-center">
-              <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/jhelum.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">JHELUM</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>Opposite Dancing Fountain City Housing Jhelum.</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i> Ph: Ph: 0307-7675555</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/fsd.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">Faisal Town</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-111-100-678</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/dha.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">DHA</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i> 93-Y Phase III, DHA,Lahore</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i> Ph: 042-111-100-678</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-            </div>
-            <!-- second row -->
-
-              <!-- third row-->
-              
-            <div class="row text-center">
-              <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/bahria town.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">BAHRIA TOWN</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>Arwa Heights Building 19 Nishtar Block, Bahria Lahore</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-111-100-678</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/gujar khan.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">GUJAR KHAN</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>New Metro City Gujar Khan</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 0321-1114962</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/lahore.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">Lahore</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>Shop no.5, Arcade Block, Fortress Stadium, Lahore</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-366-23-100</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-            </div>
-            <!-- third row -->
-
-              <!-- fourth row-->
-            <div class="row text-center">
-              <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/gujrat.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">GUJRAT</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>Service Mor, Gujrat</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 0311-1124600</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-               <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/sahiwal.png" alt="" class="img-fluid">
-                <p class="text-danger py-3">SAHIWAL</p>
-                <h3> <span>Salt'n Pepper </span> Express</h3>
-                   <p><i class="fa-solid fa-location-dot px-1 "></i>Opposite Main Gate Police Line, Sahiwal</p>
-                   <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 040-4515485</p>
-                   <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-               </div>
-              </div>
-            </div>
-            <!-- fourth row -->
-           
-          </div>
-        </div>
-
-        <!-- Express Franchises -->
-       
-         <!-- village Franchises -->
-         <section class="village-franchises text-center ">
-          <div class="container-fluid text-white" style="background-color: #0F0F0F;">
-          
-         <div class="row">
-          <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
-            <h1 class="text-center"> <span>Salt'n Pepper</span> <br> Village Franchices</h1>
-            <img src="./images/villag.png" alt="" class="img-fluid mt-2 mb-4">
-         </div>
-
-         <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5"><p class="text-danger mt-5">GUJRANWALA</p>
-          <h1> <span>Salt'n Pepper</span> Village</h1>
-          <p> <i class="fa-solid fa-location-dot "></i>Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt</p>
-          <p> <i class="fa-solid fa-phone px-1"></i>Ph: 055-3884500 | ,055-3880400</p>
-          <a href="#" class="btn3 btn5 mt-1 text-white" style="background-color: green;">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
-        </div>
-        </div>
-      </div>
-    </section>
   
-           <!-- village Franchises -->
-
-           <!-- Opening Soon Franchices -->
-
-           <section class="Opening-Soon" style="background-color: #000000 ;">
-<div class="container-fluid">
-  <div class="container">
-    <div class="textt text-center text-white ">
-      <h1> <span class="soon-heading">Salt'n Pepper </span><br>Express Franchises (Opening Soon)</h1>
-     </div>
-
-<div class="row mt-3">
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-     <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
-      Al-Jalil Garden
-      <br>
-      Sadhoke</h4>
-
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-     <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
-      Al-Jalil Garden
-      <br>
-      Sheikhupura</h4>
-
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-     <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
-      Al-Jalil Garden
-      <br>
-      Rawalpindi</h4>
-
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-     <h4> <span style="font-weight: bold;">Salt'n Pepper Express</span> <br>
-      Al-Jalil Garden
-      <br>
-      Gujranwala</h4>
-
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-     <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
-      Al-Jalil Garden
-      <br>
-      Sialkot</h4>
-
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-     <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
-      Al-Jalil Garden
-      <br>
-      Sharqpur</h4>
-
-    </div>
-  </div>
-  <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
-    <div class="location-card-box-h">
-     <img src="./images/location.png" alt="" class="img-fluid">
-     <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
-      <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
-      Al-Jalil Garden
-      <br>
-      Burewala</h4>
-
-    </div>
-  </div>
-  </div>
-<!-- Image Scroller -->
-<div class="textt text-center text-white ">
-  <h1>Social Feed</h1>
- 
- </div>
-  <div class="wrapper" style="background-color:  #000000;">
-    <div class="item"><img src="./images/handi.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/burger.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/mint.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/karahi.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/seek kabab.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/burgerr.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/grill.png" alt="" class="img-fluid"></div>
-    <div class="item"><img src="./images/karahi.png" alt="" class="img-fluid"></div>
-    
-  </div>
-</div>
-</div>
-
-  <!-- Image Scroller -->
-
-</section>
-      <!-- Opening Soon Franchices -->
-
+          <!-- Express Franchises -->
+           <section class="exp-fran-section">
+  
+          <div class="container-fluid exp-fran" style="background-color: #000000;">
+            <div class="container text-white">
+              <div class="row text-center">
       
-  <!-- Footer -->
-   <footer>
-    <div class="container-fluid text-white lh-2 textt" style="background-color: #0F0F0F;">
-      <div class="container">
-        <div class="row ">
-          <div class="col-12 col-md-3 col-sm-12 col-lg-3 text-md-center" style=" color: rgba(255, 255, 255, 0.7)">
-            <img src="./images/logo2.png" width="150" alt="" class="img-fluid mb-4 text-center">
-            <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
-            <p>Terms & conditions Privacy policy</p>
-          </div>
-          <div class="col-12 col-md-3 col-sm-12 col-lg-3">
-            <ul>
-              <li> <h5>Site Links</h5></li>
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Publications</a></li>
-              <li><a href="#">Get a Franchise</a></li>
-              <li><a href="#">Get a Franchise</a></li>
-              <li><a href="#">  Feedback</a></li>
+                <div class="col-12 col-md-12 col-sm-12 col-lg-12"> <h2><span>Salt'n Pepper</span> <br> Express Franchises</h2></div>
+                </div>
+             <!-- First Row-->
+              <div class="row text-center">
+                <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/emp mall.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">Emporium Mall</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>Sixteenth Avenue Mall</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 0300-6024000</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/gujrawala.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">Gujranwala</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-111-100-678</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/sargoda.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">DHA</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i> Opposite Sargodha Arts Council Babar Road</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 048-3725500</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+              </div>
             
+               <!-- First Row -->
+  
+              <!-- Second row-->
+              <div class="row text-center">
+                <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/jhelum.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">JHELUM</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>Opposite Dancing Fountain City Housing Jhelum.</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i> Ph: Ph: 0307-7675555</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/fsd.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">Faisal Town</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>34-C Abul Hassan Isfahani Rd, Faisal Town,Lahore</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-111-100-678</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/dha.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">DHA</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i> 93-Y Phase III, DHA,Lahore</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i> Ph: 042-111-100-678</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+              </div>
+              <!-- second row -->
+  
+                <!-- third row-->
+                
+              <div class="row text-center">
+                <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/bahria town.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">BAHRIA TOWN</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>Arwa Heights Building 19 Nishtar Block, Bahria Lahore</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-111-100-678</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/gujar khan.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">GUJAR KHAN</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>New Metro City Gujar Khan</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 0321-1114962</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/lahore.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">Lahore</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>Shop no.5, Arcade Block, Fortress Stadium, Lahore</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 042-366-23-100</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+              </div>
+              <!-- third row -->
+  
+                <!-- fourth row-->
+              <div class="row text-center">
+                <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/gujrat.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">GUJRAT</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>Service Mor, Gujrat</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 0311-1124600</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                 <div class="col-12 col-md-4 col-sm-12 col-lg-4 mt-5"><img src="./images/sahiwal.png" alt="" class="img-fluid">
+                  <p class="text-danger py-3">SAHIWAL</p>
+                  <h3> <span>Salt'n Pepper </span> Express</h3>
+                     <p><i class="fa-solid fa-location-dot px-1 "></i>Opposite Main Gate Police Line, Sahiwal</p>
+                     <p class="mb-5">  <i class="fa-solid fa-phone px-1"></i>Ph: 040-4515485</p>
+                     <a href="#" class="btn3 mt-3 text-white">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+                 </div>
+                </div>
+              </div>
+              <!-- fourth row -->
+             
+            </div>
+          </div>
+        </section>
+          <!-- Express Franchises -->
+         
+           <!-- village Franchises -->
+           <section class="village-franchises text-center ">
+            <div class="container-fluid text-white" style="background-color: #0F0F0F;">
+            
+           <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5">
+              <h1 class="text-center"> <span>Salt'n Pepper</span> <br> Village Franchices</h1>
+              <img src="./images/villag.png" alt="" class="img-fluid mt-2 mb-4">
+           </div>
+  
+           <div class="col-12 col-sm-12 col-md-6 col-lg-6 mt-5"><p class="text-danger mt-5">GUJRANWALA</p>
+            <h1> <span>Salt'n Pepper</span> Village</h1>
+            <p> <i class="fa-solid fa-location-dot "></i>Adjacent to Rida Marquees /DHA Main Gate, GT Road Gujranwala Cantt</p>
+            <p> <i class="fa-solid fa-phone px-1"></i>Ph: 055-3884500 | ,055-3880400</p>
+            <a href="#" class="btn3 btn5 mt-1 text-white" style="background-color: green;">Get Direction <i class="fa-solid fa-arrow-right bg-white text-danger" style="color: black; border-radius: 50%; padding: 2px;"></i></a>
+          </div>
+          </div>
+        </div>
+      </section>
+             <!-- Opening Soon Franchices -->
+             <section class="Opening-Soon" style="background-color: #000000 ;">  
+              <div class="container-fluid">
+                <div class="container">
+                  <div class="textt text-center text-white ">
+                    <h1> <span class="soon-heading">Salt'n Pepper </span><br>Express Franchises (Opening Soon)</h1>
+                   </div>
+              
+              <div class="row mt-3">
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                   <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
+                    Al-Jalil Garden
+                    <br>
+                    Sadhoke</h4>
+              
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                   <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
+                    Al-Jalil Garden
+                    <br>
+                    Sheikhupura</h4>
+              
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                   <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
+                    Al-Jalil Garden
+                    <br>
+                    Rawalpindi</h4>
+              
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                   <h4> <span style="font-weight: bold;">Salt'n Pepper Express</span> <br>
+                    Al-Jalil Garden
+                    <br>
+                    Gujranwala</h4>
+              
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                   <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
+                    Al-Jalil Garden
+                    <br>
+                    Sialkot</h4>
+              
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                   <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
+                    Al-Jalil Garden
+                    <br>
+                    Sharqpur</h4>
+              
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-sm-6 col-lg-4">
+                  <div class="location-card-box-h">
+                   <img src="./images/location.png" alt="" class="img-fluid">
+                   <p class="text-danger mt-2" style="text-transform: capitalize;">Opening Soon</p>
+                    <h4> <span style="font-weight: bold;">Salt'n Pepper</span>  <br> Express <br>
+                    Al-Jalil Garden
+                    <br>
+                    Burewala</h4>
+              
+                  </div>
+                </div>
+                </div>
+             </section>
+
+             <!-- Image Scroller -->
+             <section class="image-Scroller" style="background-color: #000000 ;">
+              <div class="textt text-center text-white ">
+                <h1>Social Feed</h1>
+               </div>
+                <div class="wrapper" style="background-color:  #000000;">
+                  <div class="item"><img src="./images/handi.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/burger.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/mint.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/karahi.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/seek kabab.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/burgerr.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/grill.png" alt="" class="img-fluid"></div>
+                  <div class="item"><img src="./images/karahi.png" alt="" class="img-fluid"></div>
+                  
+                </div>
+              </div>
+              </div>   
+             </section>
+             
+
+    <!-- Footer -->
+     <footer>
+      <div class="container-fluid text-white lh-2 textt" style="background-color: #0F0F0F;">
+        <div class="container">
+          <div class="row ">
+            <div class="col-12 col-md-3 col-sm-12 col-lg-3 text-md-center" style=" color: rgba(255, 255, 255, 0.7)">
+              <img src="./images/logo2.png" width="150" alt="" class="img-fluid mb-4 text-center">
+              <p>The Salt’n Pepper Restaurants are an example of gracious dinning, outstanding service, extraordinary classic and contemporary cuisine. The restaurants have become the ultimate dinning destinations in Lahore. From family occasions to business dinner and moments of the heart, this place is where unforgettable memories are made.</p>
+              <p>Terms & conditions Privacy policy</p>
+            </div>
+            <div class="col-12 col-md-3 col-sm-12 col-lg-3">
+              <ul>
+                <li> <h5>Site Links</h5></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Publications</a></li>
+                <li><a href="#">Get a Franchise</a></li>
+                <li><a href="#">Get a Franchise</a></li>
+                <li><a href="#">  Feedback</a></li>
+              
+              </ul>
+            </div>
+            <div class="col-12 col-md-3 col-sm-12 col-lg-3">
+              <ul>
+              <li><h5>Contact Us</h5></li>
+              <li>
+                <h5>Head office Address</h5>
+                <a href="#">23-Usman Block, New Garden Town, Lahore, Pakistan</a>
+              </li>
+              <li>
+                <h5>Head office number</h5>
+                <a href="tel:+924235850931">+92 42 358 509 31</a><br>
+                <a href="tel:+924235850930">+92 42 358 509 30</a>
+              </li>
+              <li>
+                <h5>Email Address</h5>
+                <a href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a>
+              </li>
+              <li>
+                <h5>Free delivery number</h5>
+                <a href="tel:+9242111100678">+92 42 111 100 678</a><br>
+                <a href="tel:+923111444610">+92 03 111 444 610</a>
+              </li>
             </ul>
-          </div>
-          <div class="col-12 col-md-3 col-sm-12 col-lg-3">
-            <ul>
-            <li><h5>Contact Us</h5></li>
-            <li>
-              <h5>Head office Address</h5>
-              <a href="#">23-Usman Block, New Garden Town, Lahore, Pakistan</a>
-            </li>
-            <li>
-              <h5>Head office number</h5>
-              <a href="tel:+924235850931">+92 42 358 509 31</a><br>
-              <a href="tel:+924235850930">+92 42 358 509 30</a>
-            </li>
-            <li>
-              <h5>Email Address</h5>
-              <a href="mailto:snpfood@brain.net.pk">snpfood@brain.net.pk</a>
-            </li>
-            <li>
-              <h5>Free delivery number</h5>
-              <a href="tel:+9242111100678">+92 42 111 100 678</a><br>
-              <a href="tel:+923111444610">+92 03 111 444 610</a>
-            </li>
-          </ul>
-          </div>
-          <div class="col-12 col-md-3 col-sm-12 col-lg-3">
-            <h5>Follow Us</h5>
-            <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
-<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
-<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
-<div class="stores mt-5">
-  <img src="./images/playstore.webp" width="150" alt="playstore" class="img-fluid  d-block">
-<img src="./images/apple.webp" width="150" alt="playstore" class="img-fluid mt-2 mb-5">
-</div>
+            </div>
+            <div class="col-12 col-md-3 col-sm-12 col-lg-3">
+              <h5>Follow Us</h5>
+              <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+  <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+  <div class="stores mt-5">
+    <img src="./images/playstore.webp" width="150" alt="playstore" class="img-fluid  d-block">
+  <img src="./images/apple.webp" width="150" alt="playstore" class="img-fluid mt-2 mb-5">
+  </div>
+            </div>
           </div>
         </div>
       </div>
+      <div class="container-fluid bg-dark">
+        <div class="container text-white text-center p-2 fs-4 d-flex justify-content-between">
+        <p>&copy Salt’n Pepper <span>Restaurant</span></p>
+      <p>Powered Bytossdown.com</p>
     </div>
-    <div class="container-fluid bg-dark">
-      <div class="container text-white text-center p-2 fs-4 d-flex justify-content-between">
-      <p>&copy Salt’n Pepper <span>Restaurant</span></p>
-    <p>Powered Bytossdown.com</p>
-  </div>
-    </div>
-      
-   </footer>
-    <!-- Footer -->        
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-      </body>
-    </html>   
+      </div>
+        
+     </footer>
+      <!-- Footer -->        
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        </body>
+      </html>   
+  
